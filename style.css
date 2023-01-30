@@ -1,4 +1,60 @@
 body {
     display: flex;
     flex-direction: column;
+    > padding: 0 200px;
 }
+
+body > *{
+    display: flex;
+    padding: 0 20%;
+}
+
+.header {
+
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+}
+
+    .logo{
+        width: 160px;
+        height: 40px;
+        margin:15px;
+        flex-shrink: 0;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 30px;
+    }
+
+.first {
+    background: blueviolet;
+}
+
+.second {
+    background: brown;
+}
+
+.third {
+
+    background: aqua;
+}
+
+.fourth {
+    background: rgb(121, 167, 14);
+}
+
+.footer {
+    background: rgb(233, 22, 163);
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+
+
