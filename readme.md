@@ -4,4 +4,4 @@ in order to demonstrate the skills learned so far, including basic HTML, CSS, an
 
 
 
-plaice.jpg belongs to http://www.cornwallgoodseafoodguide.org.uk/
+plaice.jpg from https://www.istockphoto.com/photo/plaice-fish-gm157216161-22235469

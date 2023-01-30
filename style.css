@@ -76,8 +76,35 @@ body > *{
     }
 
 .second {
-    background: brown;
+    flex-direction: column;
+    align-items: center;
 }
+
+    .imagehead {
+        color:#1f2937;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;        
+        justify-content: center;
+    }
+
+    .galleryitem {
+        text-align: center;
+        color: black;
+        font-size: 15px;;
+        max-width: 200px;
+        margin: 20px;
+    }
+
+    .gallerypic {
+        max-width:100%;
+        border: 2px solid #3882f6;
+        border-radius: 10%;
+    }
 
 .third {
     background: #e5e7eb;
