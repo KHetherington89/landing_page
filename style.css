@@ -40,20 +40,21 @@ body > *{
     .left {
         text-align: left;
         max-width: 50%;
+        min-width: min-content;
     }
 
     .right {
         max-width: 50%;
     }
 
-    .maintext {
+    .maintext, .fourthmain {
         color: #f9faf8;
         font-size: 48px;
         font-weight: bolder;
         margin: 5px;
     }
 
-    .subtext {
+    .subtext, .fourthsub {
         color: #e5e7eb;
         font-size: 18px;
         margin: 5px;
@@ -70,8 +71,8 @@ body > *{
     }
 
     .mainimage {
-        width: 500px;
-        height: 300px;
+        width: fit-content;
+        flex-shrink: 1;
     }
 
 .second {
@@ -84,7 +85,20 @@ body > *{
 }
 
 .fourth {
-    background: rgb(121, 167, 14);
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 20%;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+    .fourthmain{
+        font-size: 20px;
+    }
+
+.buttontwo{
+    border: 2px solid white;
 }
 
 .footer {
