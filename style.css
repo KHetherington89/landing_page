@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: arial;
 }
 
 body > *{
@@ -61,7 +62,7 @@ body > *{
     .signup{
         background-color: #3882f6;
         color: #e5e7eb;
-        border-style: groove;
+        border-style: none;
         border-radius: 10px;
         width: 70px;
         height: 35px;
@@ -87,10 +88,11 @@ body > *{
 }
 
 .footer {
-    background: rgb(233, 22, 163);
+    background: #1f2937;
+    justify-content: center;
 }
 
-a {
+a, .footer {
     color: #e5e7eb;
     text-decoration: none;
     font-size: 18px;
