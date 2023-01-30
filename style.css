@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    > padding: 0 200px;
 }
 
 body > *{
@@ -16,22 +15,63 @@ body > *{
     background: #1f2937;
 }
 
-    .logo{
+    .logo {
         width: 160px;
         height: 40px;
-        margin:15px;
+        margin: 15px 0;
         flex-shrink: 0;
     }
 
-    ul{
+    ul {
         display: flex;
         list-style: none;
         gap: 30px;
     }
 
 .first {
-    background: blueviolet;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #1f2937;
 }
+
+    .left {
+        text-align: left;
+        max-width: 50%;
+    }
+
+    .right {
+        max-width: 50%;
+    }
+
+    .maintext {
+        color: #f9faf8;
+        font-size: 48px;
+        font-weight: bolder;
+        margin: 5px;
+    }
+
+    .subtext {
+        color: #e5e7eb;
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    .signup{
+        background-color: #3882f6;
+        color: #e5e7eb;
+        border-style: groove;
+        border-radius: 10px;
+        width: 70px;
+        height: 35px;
+        margin: 5px;
+    }
+
+    .mainimage {
+        width: 500px;
+        height: 300px;
+    }
 
 .second {
     background: brown;
