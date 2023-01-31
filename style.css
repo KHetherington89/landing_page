@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: arial;
+    margin: 0px;
+    padding: 0px;
 }
 
 body > *{
